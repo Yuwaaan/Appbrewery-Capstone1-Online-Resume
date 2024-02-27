@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaitlyn's Resume</title>
+</head>
+<body>
+    <h1>Kaitlyn Zhang </h1>
+    <img src="./images/kaitlyn_photo.jpg" height="100" alt="kaitlyn photo" />
+    <hr />
+    <h2>Summary</h2>
+    <p>Master's graduate in Artificial Intelligence with a strong foundation and 
+        professional training in AI. Extensive experience in Natural Language Processing 
+        and Speech Recognition, encompassing tasks from fine-tuning LLM to text generation,
+         sentiment analysis, information retrieval, and phoneme classification.</p>
+    <h2>Education</h2>
+    <ul>
+        <li>
+            The University of Edinburgh, MSc in Artificial Intelligence
+            <p>Sept 2021 - Nov 2022, Edinburgh,UK</p>
+            <ul>
+                <li>
+                    Courses: Accelerated Natural Language Processing; Natural Language 
+                Understanding, Generation and Machine Translation; Machine Learning 
+                and Pattern Recognition; Text Technologies for Data Science
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            Shanghai University, Bachelor of Automation, School of Mechatronics and Automation
+            <p>Sept 2017 - Jul 2021, Shanghai,China</p>
+        </li>
+    </ul>
+
+
+    <h2>Work Experience</h2>
+    <ul>
+        <li>
+            Shengqu Games - Data Scientist Intern
+            <p>Aug 2020 - Nov 2020, Shanghai,China</p>
+            <ul>
+                <li>
+                    Trained and analyzed 30k+ in-game chat text data with bidirectional LSTM+CRF for named-entity recognition (NER) in
+the gaming domain, achieving an F1 score of 0.967 and gaining insights into player concerns and trends.
+                </li>
+                <li>
+                    Utilized Python and Pandas to conduct exploratory data analysis (EDA) on 10k+ data, to identify key drivers of user
+retention and developed strategies for improving user retention, resulting in a 12% increase in user retention rate.
+                </li>
+                <li>
+                    Fine-tuned BERT for sentiment analysis on 10k+ game reviews, achieving an accuracy rate of 91%. Provided actionable
+insights to the game studio for future feature development, contributing to enhanced user experience and satisfaction.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            Dataset Restructuring and LLM Fine-Tuning
+            <p>Tech: Hugging Face, NLP, LLM, Llama2, Multi-class Text Classification</p>
+            <ul>
+                <li>
+                    Designed and implemented a tailored data structure for the Emotional-Support-Conversation dataset, significantly elevating
+its suitability for Large Language Model (LLM) training and fine-tuning.
+                </li>
+                <li>
+                    Engineered a new data format, optimizing compatibility for LLM applications, simplifying addition of processed data, and
+facilitating label expansion effortlessly.
+                </li>
+                <li>
+                    Implemented an end-to-end fine-tuning pipeline for the Llama2 model from HuggingFace, enabling multi-class conversation
+classification on the Emotional-Support-Conversation dataset.
+                </li>
+            </ul>
+        </li>
+
+        <br />
+
+        <li>
+            Self-supervised model with Contextualized Speech representations for Speech Recognition(Master Thesis)
+            <p>
+                Tech: Python, Pytorch, APC, LSTM, ASR
+            </p>
+            <ul>
+                <li>
+                    Implemented Autoregressive Predictive Coding (APC) and generated representations on the WSJ dataset.
+                </li>
+                <li>
+                    Implemented truncated LSTM in APCs to tune long-term dependencies in speech processing, limiting the context
+containing in the pre-tained speech representations.
+                </li>
+                <li>
+                    Conducted dependency length analysis of speech representations with visual gradient in Python, and verified the pre-training
+results of APCs with and without truncations.
+                </li>
+                <li>
+                    Evaluated the speech representations learned by APCs with different truncated context lengths on a frame classification
+downstream task, the error rate gap before and after truncation is 2%.
+                </li>
+            </ul>
+        </li>
+
+        <br />
+
+        <li>
+            End to End Real-Time PySpark USA Healthcare Project
+            <p>
+                Tech: Spark, HDFS, YARN, Hive, PostgreSQL, AWS, Google Cloud Platform (GCP)
+            </p>
+            <ul>
+                <li>
+                    Implemented a robust data pipeline in Python for processing 130k+ USA healthcare data, encompassing data ingestion,
+preprocessing, transformation, storage, persistence, and transfer.
+                </li>
+                <li>
+                    Integrated a single Node Cluster with Spark on the Google Cloud Platform (GCP), optimizing data processing capabilities.
+                </li>
+                <li>
+                    Utilized HDFS for efficient data storage and utilized YARN for resource scheduling and management, ensuring
+high-performance and scalability in data processing.
+                </li>
+                <li>
+                    Ensured data persistence through integration with Hive and PostgreSQL, enabling future use and auditability.
+                </li>
+            </ul>
+        </li>
+
+        <br />
+
+        <li>
+            Language Translation based on Natural Language Processing
+            <p>
+                Tech: NLP, Language Model, Machine Translation, Transformer, Attention
+            </p>
+            <ul>
+                <li>
+                    Performed text preprocessing and feature selection on 20k+ Europarl Corpus text data in Python.
+                </li>
+                <li>
+                    Implemented an LSTM neural machine translation model and a Transformer model on the English and German parallel
+data, achieving BLUE scores of 10.91 and 11.03 respectively.
+                </li>
+                <li>
+                    Enhanced the model by incorporating lexical translation techniques, increasing the BLUE score to 12.68.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <h2>Skills</h2>
+    <ul>
+        <li>
+            Programming Languages : Python, C, SQL, HTML, CSS, JavaScript, Shell scripts, MATLAB
+        </li>
+        <li>
+            Skills : Machine Learning (Classification, Regression, Clustering), Deep Learning, Natural Language Processing (NLP), Automatic
+Speech Recognition (ASR), Exploratory Data Analysis (EDA), A/B Testing, Large Language Model(LLM)
+        </li>
+        <li>
+            Tools and Frameworks : Numpy, Pandas, Matplotlib, Scipy, ScikitLearn, Pytorch, Tensorflow, Hugging Face, Github, MySQL,
+Apache Spark, Hadoop, HDFS, YARN, PostgreSQL, Hive, AWS, Google Cloud Platform (GCP)
+        </li>
+    </ul>
+    <h2>Hobbies</h2>
+    <p>Painting, Guitar</p>
+
+    <a href="./public/contact.html">Contact Me</a>
+    
+    <footer>
+        <small>
+          Copyright © 2023 Kaitlyn Zhang. All Rights Reserved.
+        </small>
+      </footer>
+
+</body>
+</html>
